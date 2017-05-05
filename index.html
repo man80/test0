@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+
+        <title>졸업하개?</title>
+    </head>
+    <body>
+        <section>
+            <center><h3>졸업하개? <sub>-내 졸업요건을 찾아보자!-</sub></h3></center>
+            <form method="get" action="form_app.js">
+                <fieldset>
+                    <center>
+                지역: <select name="city" size="1" id="city">
+                            <option></option>
+                            <option value="seoul">서울</option>
+                      </select>
+                대학교: <select name="university" size="1" id="university">
+                            <option></option>
+                            <option value="dongguk">동국대학교</option>
+                        </select>
+                <br>
+                주전공: <select name="major" size="1" id="major">
+                            <option></option>
+                             <option value="business">경영학과</option>
+                </select> ×
+                복수전공: <select name="double_major" size="1" id="double_major">
+                            <option></option>
+                            <option>(해당없음)</option>
+                            <option value="economics">경제학과</option>
+                            <option value="chinese">중국어문화학과</option>
+                </select>
+                <br>
+                <input type="submit" value="찾기"/>
+                <input type="reset" value="취소"/>
+                </center>
+                </fieldset>
+            </form>
+        </section>
+            <div>
+                <iframe name="info" width="1200" heignt="1000"></iframe>
+            </div>
+         
+
+
+    </body>
+</html>
